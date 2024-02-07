@@ -8,17 +8,17 @@ message = "Here's your total."
 
 x = float(input("How much was your meal?"))
 
-service = input("How was our service?")
-if service == ("Bad"):
+y = input("How was our service?")
+if y == ("Bad"):
     print("0% Tip")
     tip = x * 0
-elif service == ("Okay"):
+elif y == ("Okay"):
     print("15% Tip")
     tip = x * 0.15
-elif service == ("Good"):
+elif y == ("Good"):
     print("20% Tip")
     tip = x * 0.2
-elif service == ("Great"):
+elif y == ("Great"):
     print("25% Tip")
     tip = x *0.25
 
