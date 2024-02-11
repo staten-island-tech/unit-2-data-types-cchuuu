@@ -1,19 +1,14 @@
-number = float(input("What is your number?"))
-number2 = float(input("What is your second number?"))
-num = int(number)
-num2 = int(number2)
-factors = []
+import math #imports the math library
 
-for i in range(1,int(num2/2)):
-    if num%i == 0 and num2%i == 0:
-        if i not in factors:
-            factors.append(i)
-        if number/i and number2/i not in factors:
-            factors.append(int(num/i and num2/i))
+number = float(input("What is your number?")) #asks for input and converts it to decimal
+number2 = float(input("What is your second number?")) #asks for second input and converts it to decimal
+num = int(number) #converts first input to integer
+num2 = int(number2) #converts second input to integer
 
-for i in factors:
+x = math.gcd(num,num2) #finds the greatest common denominators/factors of first input and second input
+print ("This is the greatest common factor") #prints message
+print (x) #prints the greatest common denominators/factors
 
-    print (i)
  
 
 
