@@ -13,7 +13,7 @@ def findgcf(number,number2): #function
 
     return(gcf) #returns the value to the function
 
-print(f"This is the GCF, {findgcf(number,number2)}")
+print(f"This is the GCF, {findgcf(number,number2)}") #prints out the GCF
             
 
 
